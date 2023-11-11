@@ -6,7 +6,7 @@ header img {
 header {
     width: 100%;
     height: 25%;
-    background: aqua;
+    background: grey;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -16,12 +16,36 @@ header {
     gap: 150px;
 }
 
-optionsBtn {
+.toggleOptions1 {
     font-size: 50px;
     position: absolute;
     top: 10px;
     right: 25px;
+    user-select: none;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
+.toggleOptions:hover {
+    font-size: 55px;
+}
 
-optionsBar
+.options {
+    background-color: grey;
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+
+.toggleOptions2 {
+    font-size: 50px;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    user-select: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
